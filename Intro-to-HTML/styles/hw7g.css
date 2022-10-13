@@ -1,0 +1,32 @@
+.kitty {
+
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: left;
+  border-radius: 500px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.whats {
+  color: rgb(124, 105, 105);
+  font-size: 20px;
+  vertical-align: middle;
+  font-family: Roboto;
+}
+
+.tweet {
+  background-color: rgb(134, 134, 242);
+  font-family: Roboto;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-left: 150px;
+  padding: 10px;
+  padding-right: 14px;
+  padding-left: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  vertical-align: middle;
+}

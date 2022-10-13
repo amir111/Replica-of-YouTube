@@ -1,0 +1,42 @@
+body {
+  height: 3000px;
+  padding-right: 100px;
+  font-family: Arial;
+}
+
+.right-sidebar {
+  color: white;
+  background-color: green;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  width: 100px;
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  right: 0; 
+  left: 0;
+}
+
+.div-inside-of-the-overlay {
+  background-color: white;
+  height: 120px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 200px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}

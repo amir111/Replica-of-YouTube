@@ -1,0 +1,183 @@
+.thumbnail {
+  width: 100%;
+  /* images will take up 100% of the its container's width */
+  display: block;
+  /* display: block above is not neccessary anymore b/c image is taking up 100% and has it's own line*/
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-picture,
+.profile-pic {
+  width: 36px;
+  border-radius: 50px;
+}
+
+.profile-picture-zoomed-for-tooltipz {
+  width: 46px;
+  border-radius: 50px;
+}
+
+.video-titles {
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 9px;
+}
+
+.thumbnail-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 5px;
+  right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.video-author,
+.video-stats {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author {
+  margin-bottom: 4px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* ^this line makes 3 cols of equal size */
+  column-gap: 16px;
+  row-gap: 50px;
+}
+
+@media (max-width: 750px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* Below: When screen is dragged larger than 1000px, then
+increase the font of video title's font-size to 16px and 
+all other texts font-size to 14px */
+
+@media (min-width:1200px) {
+  .video-info-grid .video-titles {
+    font-size: 16px; 
+    line-height: 24px;
+  }
+
+  .video-info-grid .video-author, 
+  .video-stats {
+    font-size: 14px;
+  }
+}
+
+@media (min-width:1400px) {
+  .video-time {
+    font-size: 14px;
+  }
+}
+
+/* Below: When screen is dragged larger than 1200.1px, then
+increase the margin from left to match the increase the 
+sidebar (in sidebar.css we make the sidebar reactive 
+and wider after 1200px). */
+
+@media (min-width:1200.1px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 115px;
+  }
+}
+
+
+
+.channelpic {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  position: relative;
+}
+
+.channelpic .tooltipz {
+  position: absolute;
+
+  opacity: 0;
+  transition: opacity 0.15s;
+
+  pointer-events: none;
+  white-space: nowrap;
+
+  bottom: -45px;
+  right: -150px;
+}
+
+.channelpic:hover .tooltipz {
+  opacity: 1;
+}
+
+.container-for-tooltipz {
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+  background-color: rgb(248, 248, 248);
+
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 30px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.lleft-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rright-side {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.rright-top {
+  color: black;
+  font-weight: bold;
+}
+
+.rright-bottom {
+  margin-top: 6px;
+  color: rgb(96, 96, 96);
+}

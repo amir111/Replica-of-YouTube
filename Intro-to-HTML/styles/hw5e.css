@@ -1,0 +1,16 @@
+p {
+  font-size: 18px;
+  font-family: Roboto;
+}
+
+.chip {
+  color: blue;
+}
+
+.chip:hover {
+  cursor: pointer;
+}
+
+.grey {
+  color: grey;
+}

@@ -1,0 +1,24 @@
+p {
+  font-family: Roboto;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.usd {
+  color: grey;
+  font-size: 18px;
+}
+
+.percen {
+  font-size: 18px;
+  color: green;
+}
+
+.afterhrs {
+  font-size: 18px;
+}
+
+.insdied {
+  color: red;
+}

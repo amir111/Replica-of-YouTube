@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <head>
+    <title>HW 14E</title>
+
+    <style>
+      body {
+        height: 3000px;
+        font-family: Arial;
+        font-size: 12px;
+        background-color: black;
+      }
+
+      .header {
+        position: fixed;
+        display: flex;
+        background-color: white;
+        top: 0;
+        left: 0;
+        right: 0;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 44px;
+        padding-left: 58px;
+        height: 42px;
+      }
+
+      .left-side {
+        display: flex;
+        align-items: center;
+      }
+
+      .ket {
+        height: 32px;
+        width: 32px;
+        border-radius: 16px;
+        object-fit: cover;
+        margin-right: 8px;
+      }
+
+      .ket-name {
+        font-weight: bold;
+      }
+
+      .add-friend {
+        background-color: rgb(108, 105, 253);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        height: 26px;
+        font-family: Arial;
+        font-size: 11px;
+        width: 71px;
+      }
+
+      .message {
+        background-color: rgb(231, 229, 229);
+        font-weight: bold;
+        border: none;
+        border-radius: 4px;
+        height: 26px;
+        margin-left: 4px;
+        font-family: Arial;
+        font-size: 11px;
+        width: 71px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-side">
+        <img src="thumbnails/boxx.jpg" class="ket">
+        <p class="ket-name">Oliver Cat</p>
+      </div>
+  
+      <div class="r-side">
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</hmtl>

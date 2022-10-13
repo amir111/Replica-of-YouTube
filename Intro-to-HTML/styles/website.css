@@ -1,0 +1,62 @@
+p {
+  font-family: Roboto;
+}
+
+
+.amz {
+  font-size: 19px;
+  color: rgb(0, 113, 133)
+}
+
+.amz:hover {
+  color: red;
+}
+
+.blk {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stock {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cart {
+  background-color: yellow;
+  font-size: medium;
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: opacity 0.15s;
+}
+
+.cart:hover {
+  background-color: rgb(255, 208, 0);
+}
+
+.cart:active {
+  opacity: .6;
+}
+
+.buy {
+  background-color: orange;
+  font-size: medium;
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background-color: darkorange;
+}
+
+.buy:active {
+  opacity: .7;
+}

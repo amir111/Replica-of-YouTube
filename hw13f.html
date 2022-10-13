@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HW 13F and 13G</title>
+  <style>
+    .main {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 14px;
+      width: 300px;
+    }
+
+    .top-half {
+      display: flex;
+      align-items: center;
+      line-height: 20px;
+    }
+
+    .ket {
+      height: 50px;
+      width: 50px;
+      border-radius: 25px;
+      object-fit: cover;
+      padding-top: 4px;
+      padding-left: 2px;
+    }
+
+    .rightside {
+      margin-left: 8px;
+    }
+
+    .rsidetop {
+      display: flex;
+      height: 20px;
+      align-items: center;
+    }
+
+    .leeeft {
+      margin-right: 4px;
+      font-weight: bold;
+    }
+
+    .righhht {
+      color: rgb(111, 111, 111);
+      font-size: 14px;
+    }
+
+    .bot-half {
+      display: flex;
+      box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+      flex: 1;
+      border-radius: 8px;
+      border-left: 70px solid rgb(208, 208, 208);
+      margin-left: 20px;
+    }
+
+    .rsidebot {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      flex: 1;
+    }
+
+    .bot-right {
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      line-height: 18px;
+    }
+
+    .utubegreytitle {
+      color: rgb(85, 84, 84);
+      margin-bottom: 4px;
+    }
+
+    div {
+      font-family: Arial;
+    }
+
+    .tweet {
+      display: flex;
+      flex-direction: row;
+      width: 480px;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+
+    .profile-picture-column {
+      margin-right: 10px;
+    }
+
+    .profile-picture {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+
+    .tweet-column {
+      flex: 1;
+    }
+
+    .tweet-header {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 5px;
+    }
+
+    .tweet-author {
+      font-weight: bold;
+      margin-right: 5px;
+    }
+
+    .tweet-author-handle {
+      color: rgb(111, 111, 111);
+    }
+
+    .tweet-content {
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+
+    .video-preview {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    .thumbnail-column {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(220, 220, 220);
+      margin-right: 10px;
+    }
+
+    .video-info-column {
+      flex: 1;
+    }
+
+    .video-website {
+      color: rgb(111, 111, 111);
+      margin-bottom: 3px;
+    }
+
+    .video-title {
+      line-height: 22px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="top-half">
+
+      <div>
+        <img src="thumbnails/boxx.jpg" class="ket">
+      </div>
+
+      <div class="rightside">
+        <div class="rsidetop">
+          <p class="leeeft">supersimple.dev</p>
+          <p class="righhht">@SuperSimpleDev</p>
+        </div>
+        <p class="rsidebot">What is backend web dev? A complete overview. New video is up!</p>
+      </div>
+    </div>
+
+    <div class="bot-half">
+      <div class="bot-left">
+
+      </div>
+      <div class="bot-right">
+        <div class="bot-top">
+          <div class="utubegreytitle">youtube.com</div>
+        </div>
+        <div class="bot-bot">
+          <div class="texxt-2021">
+            Backend web development - a complete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tweet">
+    <div class="profile-picture-column">
+      <img class="profile-picture" src="thumbnails/boxx.jpg">
+    </div>
+    <div class="tweet-column">
+      <div class="tweet-header">
+        <div class="tweet-author">supersimple.dev</div>
+        <div class="tweet-author-handle">@SuperSimpleDev</div>
+      </div>
+      <div class="tweet-content">
+        What is backend web development? A complete overview. New video is up!
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-column"></div>
+        <div class="video-info-column">
+          <div class="video-website">youtube.com</div>
+          <div class="video-title">
+            Backend web development - a complete overview (2021)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

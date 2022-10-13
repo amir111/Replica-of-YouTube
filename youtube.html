@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>UTube.com Clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <a href="https:youtube.com">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </a>
+    </div>
+
+    <div class="mid-section">
+      <input class="search-bar" type="text" placeholder="Search...">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+
+      <div class="youtube-apps-container">
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="tooltip">Youtube Apps</div>
+      </div>
+
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+
+      <div class="current-user-picture-container">
+        <img class="current-user-picture" src="thumbnails/channel-pics/my-channel.jpeg">
+        <div class="tooltip">Your Profile</div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons-for-sidebar/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="divy">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=kzgWP_wRBd4">
+            <img class="thumbnail" src="thumbnails/thumbnail1.webp">
+          </a>
+          <div class="video-time">
+            10:48
+          </div>
+        </div>
+        <div class="video-info-grid">
+
+          <div class="channelpic">
+            <a href="https://www.youtube.com/c/F1">
+              <img class="profile-picture" src="thumbnails/channel-pics/f1.jpg">
+            </a>
+
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/channel-pics/f1.jpg">
+                </div>
+                <div class="rright-side">
+                  <div class="rright-top">
+                    FORMULA 1
+                  </div>
+                  <div class="rright-bottom">
+                    8.25M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=kzgWP_wRBd4" style="color:black; text-decoration: none;">
+              <p class="video-titles">
+                Hungary Top 10 Onboard Radio Communications
+              </p>
+            </a>
+            <a href="https://www.youtube.com/c/F1" style="text-decoration: none;">
+              <p class="video-author">
+                FORMULA 1 &#10003
+              </p>
+            </a>
+            <p class="video-stats">
+              3.4M views &#183 6 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div2">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk">
+            <img class="thumbnail" src="thumbnails/lofi.webp">
+          </a>
+          <div class="video-time">
+            &#x1F534 Live
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channelpic">
+            <a href="https://www.youtube.com/c/LofiGirl">
+              <img class="profile-pic" src="thumbnails/channel-pics/lofi-prof-pic.jpg">
+            </a>
+
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/channel-pics/lofi-prof-pic.jpg"">
+              </div>
+              <div class=" rright-side">
+                  <div class="rright-top">
+                    Lofi Girl
+                  </div>
+                  <div class="rright-bottom">
+                    14M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" style="color: black; text-decoration: none;">
+              <p class="video-titles">
+                lofi hip hop radio - beats to relax/study to
+              </p>
+            </a>
+            <p class="video-author">
+              Anna Bella Lofi Girl &#10003
+            </p>
+            <p class="video-stats">
+              14M views &#183 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="divy">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=iSnP5c997Uk">
+            <img class="thumbnail" src="thumbnails/merc.webp">
+          </a>
+          <div class="video-time">
+            13:09
+          </div>
+        </div>
+
+        <div class="video-info-grid">
+          <div class="channelpic">
+            <a href="https://www.youtube.com/c/EUROCARGUY">
+              <img class="profile-picture" src="thumbnails/channel-pics/eurocarguy.jpg">
+            </a>
+
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/channel-pics/eurocarguy.jpg">
+                </div>
+                <div class="rright-side">
+                  <div class="rright-top">
+                    EUROCARGUY
+                  </div>
+                  <div class="rright-bottom">
+                    4.7M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=iSnP5c997Uk" style="color: black; text-decoration: none;">
+              <p class="video-titles">
+                2021 MAYBACH S580 Test Drive
+              </p>
+            </a>
+            <p class="video-author">
+              EUROCARGUY
+            </p>
+            <p class="video-stats">
+              4.7M views &#183 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div2">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=kICh_d6tHQk">
+            <img class="thumbnail" src="thumbnails/study.webp">
+          </a>
+          <div class="video-time">
+            19:43
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channelpic">
+            <a href="https://www.youtube.com/c/JamesScholz">
+              <img class="profile-pic" src="thumbnails/channel-pics/james.jpg">
+            </a>
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/channel-pics/james.jpg">
+                </div>
+                <div class="rright-side">
+                  <div class="rright-top">
+                    James Scholz
+                  </div>
+                  <div class="rright-bottom">
+                    2.3M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=kICh_d6tHQk" style="color:black; text-decoration: none;">
+              <p class="video-titles">
+                How I studied 12 hours a day for 2 years
+              </p>
+            </a>
+            <p class="video-author">
+              James Scholz &#10003
+            </p>
+            <p class="video-stats">
+              2.3M views &#183 4 weeks ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="divy">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=JxS5E-kZc2s">
+            <img class="thumbnail" src="thumbnails/boxxx.jpg">
+          </a>
+          <div class="video-time">
+            16:45
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channelpic">
+            <a href="https://www.youtube.com/channel/UCVaQwUU0NLkBeO6m7_j2U2Q">
+              <img class="profile-picture" src="thumbnails/newket.jpg">
+            </a>
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/newket.jpg">
+                </div>
+                <div class="rright-side">
+                  <div class="rright-top">
+                    Feline Humor
+                  </div>
+                  <div class="rright-bottom">
+                    10M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=JxS5E-kZc2s" style="color:black; text-decoration: none;">
+              <p class="video-titles">
+                Funny cats compilation
+              </p>
+            </a>
+            <p class="video-author">
+              Feline Humor
+            </p>
+            <p class="video-stats">
+              10M views &#183 11 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div2">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Hi0zbU3DW6o">
+            <img class="thumbnail" src="thumbnails/vogue.webp">
+          </a>
+          <div class="video-time">
+            7:37
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channelpic">
+            <a href="https://www.youtube.com/c/Vogue">
+              <img class="profile-pic" src="thumbnails/channel-pics/vogue.jpg">
+            </a>
+            <div class="tooltipz">
+              <div class="container-for-tooltipz">
+                <div class="lleft-side">
+                  <img class="profile-picture-zoomed-for-tooltipz" src="thumbnails/channel-pics/vogue.jpg">
+                </div>
+                <div class="rright-side">
+                  <div class="rright-top">
+                    Vogue
+                  </div>
+                  <div class="rright-bottom">
+                    25M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=Hi0zbU3DW6o" style="color:black; text-decoration:none;">
+              <p class="video-titles">
+                73 Questions With Kylie Jenner | Vogue
+              </p>
+            </a>
+            <p class="video-author">
+              Vogue &#10003
+            </p>
+            <p class="video-stats">
+              25M views &#183 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- html comment -->
+
+</body>
+
+</html>

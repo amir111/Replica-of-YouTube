@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Position Practice</title>
+</head>
+
+<body style="
+  height: 3000px;
+  padding-top: 60px;
+  padding-left: 80px;
+">
+  <div style="
+    background-color: black;
+    color: white;
+    position: fixed;
+    height: 50px;
+    top: 0px; /* <-top works like margin, so header will be below browser window for 10px */
+    left: 0px; /* same way as margin from left side*/
+    right: 0px; /* stretches the element to meet these conditions */
+  ">
+    header
+  </div>
+
+  <div style="
+    background-color:green;
+    color:white;
+    position: fixed;
+    top: 50px; 
+    bottom: 0;
+    left: 0;
+    width: 72px;
+  ">
+    sidebar
+  </div>
+
+  <div style="
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 10px;
+    top: 10px;
+  ">
+    absolute
+  </div>
+
+  <div style="
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    position: static;
+  ">
+    div 1
+  </div>
+  <div style="
+    background-color: lightpink;
+    height: 200px;
+    width: 200px;
+  ">
+    div 2
+  </div>
+</body>
+
+</html>

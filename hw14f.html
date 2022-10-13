@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <head>
+    <title>HW 14F</title>
+    <style>
+      body {
+        height: 3000px;
+        font-family: Arial;
+        font-size: 12px;
+      }
+
+      .left-most-sidebar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgb(27, 27, 27);
+        width: 60px;
+      }
+
+      .ks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 18px;
+      }
+
+      .ava {
+        height: 45px;
+        width: 45px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-bottom: 8px;
+      }
+
+      .right-most-sidebar {
+        position: fixed;
+        background-color: rgb(52, 52, 52);
+        left: 60px;
+        top: 0;
+        bottom: 0;
+        width: 200px;
+      }
+      
+      .all-rows {
+        display: flex;
+        flex-direction: column;
+        color: rgb(176, 176, 176);
+        margin-left: 18px;
+        margin-top: 20px;
+      }
+
+      .top-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 10px;
+        margin-right: 18px;
+      }
+
+      .whitecolor {
+        color: white;
+      }
+
+      .grey-plus {
+        color: rgb(176, 176, 176);
+        font-size: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="left-most-sidebar">
+      <div class="ks">
+        <img class="ava" src="thumbnails/boxx.jpg">
+        <img class="ava" src="thumbnails/boxxx.jpg">
+        <img class="ava" src="thumbnails/dog.jpg">
+      </div>
+    </div>
+
+    <div class="right-most-sidebar">
+      <div class="all-rows">
+        <div class="top-row">
+          <p class="whitecolor">INFO</p>
+          <p class="grey-plus">+</p>
+        </div>
+        <div class="bot-row">
+          <p class="raw"># new-videos</p>
+          <p class="raw"># updates</p>
+          <p class="raw"># faq</p>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</hmtl>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<hmtl>
+
+  <head>
+    <title>HW 13B</title>
+  </head>
+
+  <style>
+    .main {
+      display: flex;
+    }
+
+    .first-elt {
+      display: flex;
+      background-color: pink;
+      width: 100px;
+      justify-content: center;
+    }
+
+    .innerclass {
+      background-color: black;
+      color: white;
+      height: 20px;
+    }
+
+    .second-elt {
+      background-color: lightblue;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .row2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .r21 {
+      margin-top: 0px;
+      color: white;
+      background-color: black;
+    }
+  </style>
+
+  <body>
+    <div class="main">
+      <div class="first-elt">
+        <p class="innerclass">item 1</p>
+      </div>
+      <div class="second-elt">
+        <div>row1</div>
+        <div class="row2">
+          <p class="r21">row2</p>
+          <p class="r21">row2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</hmtl>

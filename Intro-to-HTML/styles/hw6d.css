@@ -1,0 +1,35 @@
+p {
+  font-family: Montserrat;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.model3 {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.order {
+  font-size: 20px;
+  text-align: center;
+}
+
+.underlineDisPls {
+  text-decoration: underline;
+  transition: 0.1s;
+}
+
+.underlineDisPls:hover {
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.underlineDisPls:active {
+  cursor: pointer;
+  font-size: 22px;
+  opacity: .6;
+}

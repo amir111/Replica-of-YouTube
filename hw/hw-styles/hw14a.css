@@ -1,0 +1,11 @@
+body {
+  height: 3000px;
+}
+
+.bot-right-fixed-elt {
+  color: white;
+  background-color: black;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
