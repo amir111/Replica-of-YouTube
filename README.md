@@ -6,7 +6,7 @@ Replica of YouTube (utilized HTML5, CSS3, git)
 **July 2022 - September 2022**
 
 ## Summary
-My first replicating YouTube with clickable videos, authors, and other functions. 
+My first attempt at replicating YouTube with clickable videos, authors, and other functions. 
 
 Here is a snapshot of what the results look like:
 
